@@ -1,7 +1,7 @@
 QT += core gui widgets
 CONFIG += c++11
 
-INCLUDEPATH += "C:/ffmpeg/include"    # 替换成你实际的 FFmpeg include 路径
+INCLUDEPATH += "C:/ffmpeg/include"
 LIBS += -L"C:/ffmpeg/lib" -lavformat -lavcodec -lavutil -lswscale
 
 # 添加源文件和头文件
